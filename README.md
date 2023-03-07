@@ -10,12 +10,6 @@ All CATS code is open source and can be used free of charge without warranty.
 ## Introduction
 
 This repo includes all flight simulation and testing for the kalman filter.
-The *Analysis* folder includes analysis of sensor data as well as 3D plotting of the orientation kalman filter which is currently in development.
-The *sim* folder includes a python simulation where sensor data is loaded and where the attitude and velocity kalman filter can be tested.
+The *Simulator* folder includes a working version of a simulation tool. This project is unforunately frozen in place until further notice.
+The *sim* folder includes a python simulation where sensor data is loaded and where the attitude and velocity kalman filter can be tested. Aditionally, there is a file which can generate polynomials from certain flight logs for replay on the CATS Vega through the simulation tool.
 
-## Next Steps
-
-This repo will include, in a later step
-
-1. A simulator in C++ which can feed simulation and true sensor data to the CATS FC.
-2. A simple simulator for rockets to generate trajectories and fake sensor data.
